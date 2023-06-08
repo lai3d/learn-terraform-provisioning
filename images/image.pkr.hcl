@@ -33,7 +33,7 @@ build {
   sources = ["source.amazon-ebs.example"]
 
   provisioner "file" {
-    source      = "../tf-cloud-init.pub"
+    source      = "../tf-packer.pub"
     destination = "/tmp/tf-packer.pub"
   }
   provisioner "shell" {

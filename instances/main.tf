@@ -5,7 +5,7 @@ terraform {
   required_providers {
     aws = {
       source  = "hashicorp/aws"
-      version = "~> 4.42.0"
+      version = "~> 5.1.0"
     }
   }
   required_version = ">= 0.14.5"
@@ -79,7 +79,7 @@ resource "aws_security_group" "sg_22_80" {
 }
 
 resource "aws_instance" "web" {
-  ami                         = "ami-0f2c478673828e479"
+  ami                         = "ami-0b940748ef338295b"
   instance_type               = "t2.micro"
   subnet_id                   = aws_subnet.subnet_public.id
   vpc_security_group_ids      = [aws_security_group.sg_22_80.id]
