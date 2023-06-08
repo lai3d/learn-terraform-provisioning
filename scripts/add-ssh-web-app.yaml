@@ -17,7 +17,8 @@ users:
     groups: users, admin
     lock_passwd: false
     ssh_authorized_keys:
-      - ssh-rsa AAAAHHHHHH
+      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQC+RFlu/28KN0dOL26sqZoaUvdGTqH4HeMbrJBOCZBbYFuIOD0gTPGQjUdFkLHb3SSE8H+NWrAybYui8/0BclAmk/woKulK/x4ok8nsRW/v0fkycxqRbHIgX5Nm5VC5kU1Ttki55zITz4/PHHM/Q6v6xRmwKgqCFroIRKOPClHcSdmjtMvAIGQw1rXghGYoMcT8F+7t8bGLsaSthLbm8D4tSNVou2hbgnmuE4G92n4zoZHx4ybL99ADJZ2RpoKdnw5coCRwISphD/LzQdMkmpi/W/76+FmcHsMV2fq6vt83iZkFrnaxq0UEmn2ftkPTp4SrZGQ4TGaZPNsgEsgHsr7X3PpyqcW+QtfrWFpbXQqhw5rUngmjmmOzFrn5aVzY9GwSaZ6sZtlJIKsJUH2iLl96kTq/ZsrepaCh9A47Zs6D+ofzBRUWqJLKDje7eM4P0PB68JMOqJyGynPnUpiN7sM+zmcmpuVtUlxjwPnPborAruM7/sZw7qIK1o3D24Hzg4U= cgpanda.sg@gmail.com
+
 
 # Downloads the golang package
 packages:
